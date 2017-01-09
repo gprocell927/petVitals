@@ -3,3 +3,38 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.reading-header {
+  background: #4379C8;
+  border: 1px solid #979797;
+  height: 10vh;
+  margin-bottom: 25px;
+  font-family: GillSans-Bold;
+  font-size: 40px;
+  color: #FFAA19;
+  letter-spacing: -3px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+ .vitals {
+   color: #12B8A6;
+ }
+
+.reading-label {
+  display: block;
+  margin-left: 20px;
+}
+
+.reading-input {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.reading-form {
+  font-family: GillSans;
+}
+
+.vaporizer, .heartRate, .respirations {
+  display: inline-block;
+}

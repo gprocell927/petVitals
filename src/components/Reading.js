@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './Header'
 
 const Reading = ({ handleSubmit }) => {
   let temp
@@ -14,9 +15,12 @@ const Reading = ({ handleSubmit }) => {
   let timestamp
 
   return (
-    <section>
-      <form onSubmit= { (e) => {
-        e.preventDefault()
+    <div className="reading">
+      <Header />
+
+      <form className="reading-form"
+            onSubmit= { (e) => {
+              e.preventDefault()
 
         let info = {
           timestamp: new Date().getHours() + ":" + new Date().getMinutes(),
@@ -34,36 +38,47 @@ const Reading = ({ handleSubmit }) => {
         handleSubmit(info)
       }}>
 
-        <label>Oxygen Flow:</label>
-        <input ref={ (node) => { oxygen = node }} /> <span>L</span>
+        <label className="reading-label">Oxygen Flow:</label>
+        <input className="reading-input"
+          ref={ (node) => { oxygen = node }} /> <label>L</label>
 
-        <label>Vaporizer Setting:</label>
-        <input ref={ (node) => { gasFlow = node }} /> <span>%</span>
+        <label className="reading-label vaporizer">Vaporizer Setting:</label>
+        <input className="reading-input"
+          ref={ (node) => { gasFlow = node }} /> <label>%</label>
 
-        <label>Body Temp:</label>
-        <input ref={ (node) => { temp = node }} /> <span>°F</span>
+        <label className="reading-label">Body Temp:</label>
+        <input className="reading-input"
+          ref={ (node) => { temp = node }} /> <label>°F</label>
 
-        <label>Heart Rate:</label>
-        <input ref={ (node) => { heartRate = node }} /> <span>bpm</span>
+        <label className="reading-label heartRate">Heart Rate:</label>
+        <input className="reading-input"
+          ref={ (node) => { heartRate = node }} /> <label>bpm</label>
 
-        <label>Respirations:</label>
-        <input ref={ (node) => { respirations = node }} /> <span>bpm</span>
+        <label className="reading-label respirations">Respirations:</label>
+        <input className="reading-input"
+          ref={ (node) => { respirations = node }} /> <label>bpm</label>
 
-        <label>ETCO2:</label>
-        <input ref={ (node) => { etco2 = node }} /> <span>mmHg</span>
+        <label className="reading-label">ETCO2:</label>
+        <input className="reading-input"
+          ref={ (node) => { etco2 = node }} /> <label>mmHg</label>
 
-        <label>SPO2:</label>
-        <input ref={ (node) => { spo2 = node }} /> <span>%</span>
+        <label className="reading-label">SPO2:</label>
+        <input className="reading-input"
+          ref={ (node) => { spo2 = node }} /> <label>%</label>
 
-        <label>Blood Pressure:</label>
-        <input ref={ (node) => { systolicBP = node }} /> <span>/</span>
-        <input ref={ (node) => { diastolicBP = node }} /> <span> </span>
-        <input ref={ (node) => { meanBP = node }} />
+        <label className="reading-label">Blood Pressure:</label>
+        <input className="reading-input"
+          ref={ (node) => { systolicBP = node }} /> <label>/</label>
+        <input className="reading-input"
+          ref={ (node) => { diastolicBP = node }} /> <label> </label>
+        <input className="reading-input"
+          ref={ (node) => { meanBP = node }} />
 
-        <button children="Submit Reading" />
+        <button className="reading-submit-button"
+          children="Submit Reading" />
 
       </form>
-    </section>
+    </div>
   )
 }
 
