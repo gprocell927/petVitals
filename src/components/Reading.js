@@ -19,7 +19,7 @@ const Reading = ({ handleSubmit }) => {
       <Header />
 
       <form className="reading-form"
-            onSubmit= { (e) => {
+            onSubmit={ (e) => {
               e.preventDefault()
 
         let info = {
