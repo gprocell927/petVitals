@@ -1,0 +1,18 @@
+
+<svg width="743px" height="305px" viewBox="343 548 743 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="5.31640625%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FABD47" offset="0%"></stop>
+            <stop stop-color="#DD4C02" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(343.000000, 548.000000)">
+        <path d="M648.228757,91.5025172 L648.228757,3.21802726 C648.228757,1.55867613 646.888061,0.21875 645.234228,0.21875 L539.268166,0.21875 C537.608938,0.21875 536.273637,1.56157217 536.273637,3.21802726 L536.273637,91.5025172 L450.88785,91.5025172 C449.234146,91.5025172 447.888016,92.8461268 447.888016,94.5035533 L447.888016,198.042002 C447.888016,199.697561 449.231087,201.043038 450.88785,201.043038 L536.273637,201.043038 L536.273637,301.498697 C536.273637,303.158048 537.614333,304.497974 539.268166,304.497974 L645.234228,304.497974 C646.893456,304.497974 648.228757,303.155152 648.228757,301.498697 L648.228757,201.043038 L739.506919,201.043038 C741.160624,201.043038 742.506753,199.699428 742.506753,198.042002 L742.506753,94.5035533 C742.506753,92.8479943 741.163682,91.5025172 739.506919,91.5025172 L648.228757,91.5025172 L648.228757,91.5025172 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <text id="petVitals" font-family="GillSans-Bold, Gill Sans" font-size="100" font-weight="bold" letter-spacing="-4.16666698">
+            <tspan x="0.0675343811" y="176.87414" fill="#FFAA19">pet</tspan>
+            <tspan x="157.831205" y="176.87414" fill="#12B8A6">Vitals</tspan>
+        </text>
+    </g>
+</svg>
