@@ -1,7 +1,7 @@
 const readingsReducer = (state=[], action) => {
   switch(action.type) {
     case 'ADD_READING':
-      return [..state, {
+      return [...state, {
         id: action.id,
         text: action.text,
         ...action.info

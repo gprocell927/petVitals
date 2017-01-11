@@ -1,11 +1,11 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyAYGEL7PNQHFLObNrpc8dpKpvCHXY59zSE",
-  authDomain: "anesthesiaapp-337a3.firebaseapp.com",
-  databaseURL: "https://anesthesiaapp-337a3.firebaseio.com",
-  storageBucket: "anesthesiaapp-337a3.appspot.com",
-  messagingSenderId: "634025903164"
+  apiKey: "AIzaSyBBqRVm9Vq6-kh0nhsCyIkKIi8VVsNvOU4",
+  authDomain: "petvitals.firebaseapp.com",
+  databaseURL: "https://petvitals.firebaseio.com",
+  storageBucket: "petvitals.appspot.com",
+  messagingSenderId: "187954041182"
 }
 
 firebase.initializeApp(config);

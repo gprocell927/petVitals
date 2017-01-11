@@ -2,9 +2,9 @@ import React from 'react'
 
 const LogIn = () => {
   return (
-    <section className="clipboard">
+    <section className="logInForm">
       <aside className="title-header" />
-      <form className="logInForm">
+      <form className="clipboard">
         <input
           className="username"
           placeholder="USERNAME"
