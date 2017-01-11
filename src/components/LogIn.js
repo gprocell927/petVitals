@@ -1,10 +1,14 @@
 import React from 'react'
 
-const LogIn = () => {
+const LogIn = ({ handleSubmit }) => {
   return (
     <section className="logInForm">
       <aside className="title-header" />
-      <form className="clipboard">
+      <form className="clipboard"
+            onSubmit={ (e) => {
+              e.preventDefault()
+
+            handleSubmit()}}>
         <input
           className="username"
           placeholder="USERNAME"
