@@ -1,9 +1,11 @@
-import constants from '../utils/firebaseClient'
+const C = require('../utils/constants')
 
-export default const initialState = {
+const initialState = {
   auth: {
-    currently: constants.ANONYMOUS,
+    currently: C.ANONYMOUS,
     username: null,
     uid: null
   }
 }
+
+export default initialState
