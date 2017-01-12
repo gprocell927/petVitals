@@ -7,7 +7,7 @@ import ReduxThunk from 'redux-thunk'
 import reducers from './reducers'
 import Reading from './components/Reading'
 import LogIn from './components/LogIn'
-import PatientSetup from './components/PatientSetup'
+import Patient from './components/PatientSetup'
 import './index.css';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxThunk)(createStore)
@@ -19,7 +19,8 @@ const Root = () => {
     <BrowserRouter>
       <div>
         <Match exactly pattern="/" component={LogIn} />
-        <Match exactly pattern="/patientsetup" component={PatientSetup} />
+        <Match exactly pattern="/patientsetup" component={Patient} />
+        <Match exactly pattern="/reading" component={Reading} />
       </div>
     </BrowserRouter>
   )

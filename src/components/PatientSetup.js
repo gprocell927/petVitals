@@ -11,8 +11,8 @@ const Patient = ({ handleSubmit }) => {
   let patientID
 
   return (
-    <div className="patientSetup">
-      <Header />
+  <section className="patientSetup">
+    <Header />
 
     <form
       className="patient-form"
@@ -70,6 +70,7 @@ const Patient = ({ handleSubmit }) => {
     <input
       className="patient-input"
       ref={ (node) => { pawarnings = node }}
+    />
 
     <label className="patient-label">
       Behavior Warnings:
@@ -79,17 +80,15 @@ const Patient = ({ handleSubmit }) => {
       ref={ (node) => { behavior = node }}
     />
 
-    />
-
     <button
       className="patient-submit-button"
       children="Add Patient"
     />
 
   </form>
-</div>
+</section>
 
   )
 }
 
-export default patientSetup
+export default Patient
